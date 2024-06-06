@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 300px;
+    margin-bottom: 75px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+    margin-bottom: 75px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    width: 100px;
+    flex-shrink: 0;
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 300px;
+    gap: 75px;
+    margin-bottom: 75px;
+}
+
+.all-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 0 300px;
+    margin-bottom: 75px;
+}
+
+.author {
+    margin-left: auto;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
